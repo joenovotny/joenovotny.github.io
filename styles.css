@@ -29,3 +29,6 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid #ff
 .topbar a{display:inline-flex;align-items:center;min-height:32px}.flavor-card-copy>span{font-size:10px}.flavor-grid .flavor-card p{font-size:14px}.booking-help{font-size:14px}
 /* Keep category titles readable at narrow phone widths. */
 .category h2{overflow-wrap:normal;word-break:normal;hyphens:none}.category>div{min-width:0}@media(max-width:760px){.category{padding:20px 16px;min-height:190px}.category>div{margin-left:38%}.category h2{font-size:clamp(1.35rem,6vw,1.85rem);line-height:1.08;letter-spacing:-.35px;padding:8px 5px}.category-link{white-space:normal;font-size:clamp(.7rem,3.2vw,.85rem);line-height:1.35;padding:8px;min-height:40px;display:flex;align-items:center;justify-content:center}}@media(max-width:360px){.category>div{margin-left:36%}.category h2{font-size:1.35rem}}
+
+/* Keep the hero photograph anchored to the same centered page canvas. */
+@media(min-width:1100px){.hero{max-width:1490px;width:100%;margin-inline:auto}}
